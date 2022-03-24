@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://kit.fontawesome.com/e45a62e93a.js" crossorigin="anonymous"></script>
+</head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+        <h2 class="imp-text">CSS-Companion</h2>
+        <ul>
+            <li><a  href="/index.html">Home</a></li>
+            <li><a class="current-pg" href="/component.html">Components-docs</a></li>
+            <li><a href="/">git</a></li>
+        </ul>
+    </nav>
+<hr>
+<div class="component-text imp-text">Get your Website Components Designed
+</div>
+
+<aside>
+
+    <label for="hamburger" class="hamnav">&#9776;</label>
+  <input type="checkbox" id="hamburger">
+  
+    <ul class="hamitems">
+        
+        <li><a href="/component.html">Avatar</a></li>
+        <li><a  href="/alert.html">Alert</a></li>
+        <li><a href="/badge.html">Badge</a></li>
+        <li><a  href="/button.html">Button</a></li>
+        <li><a href="/card.html">Card</a></li>
+        <li><a href="/image.html">Image</a></li>
+        <li><a class="current-pg"  href="input.html">Input</a></li>
+        <li><a href="text-utilities.html">Text Utilities</a></li>
+        <li><a href="/navigation.html">Navigation</a></li>
+        <li><a href="/modal.html">Modal</a></li>
+        <li><a href="/rating.html">Rating</a></li>
+        <li><a href="/toast.html">Toast</a></li>
+        <li><a href="/grid.html">Grids</a></li>
+        <li><a href="/slider.html">Slider</a></li>
+    </ul>
+  </aside>
+
+        <main>
+
+            <h3 class="imp-text">Inputs</h3>
+
+            <p class="bold">Primary Input with Label</p>
+            <p>Inputs, Inputs and Inputs, Inputs are the main part of gathering/collecting user's data. That's why here's demp input which will suit majority of your needs. You can hold on to thr class <span class="highlight">"input input-text"</span>for creating beautiful inputs. Always remember that all these classes are easy to modify as per the need of your designs.</p>
+
+            <div class="input-box">
+                <p class="label-text">Label</p>
+                <p>Default input, use class <span class="highlight">"input text"</span>for using this dude.</p>
+                <input class="input input-text" type="text" placeholder="Enter your name">
+            </div>
+
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=155%25&si=false&es=2x&wm=false&code=%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522label-text%2522%253ELabel%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-text%2522%2520type%253D%2522text%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 812px; height: 152px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            <p class="bold">Success Input</p>
+            <div class="input-box">
+                <p>What if the value your user gave you is correct! It is always good to demonstrate correct input with a different color for high user experience. Use class <span class="highlight">"input-success"</span>for using this input.</p>
+                <p class="label-success">Enter Username *</p>
+                <input class="input input-success" type="text">
+            </div>
+
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=155%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522input-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522label-success%2522%253EEnter%2520Username%2520*%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-success%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+  style="width: 576px; height: 152px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+
+            <p class="bold">Error</p>
+            <p>You can use this input type for showcasing wrong input. Use class <span class="highlight">"input-error"</span>for the same.</p>
+            <div class="input-box">
+                <p class="lable-error">Invalid Password</p>
+                <input class="input input-error" type="text">
+            </div>
+            
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=155%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522lable-error%2522%253EInvalid%2520Password%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%2520class%253D%2522input%2520input-error%2522%2520type%253D%2522text%2522%253E"
+  style="width: 558px; height: 107px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+       
+            </main>
+            
+        <footer>
+            <h4>all rights reserved @ CSS-Companion</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sneha-singh-58b246195/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/i-am-a-codegirl?tab=repositories"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://instagram.com/a_productuive_blog?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="mailto: iamacodegirl@gmail.com"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/snehasi16136808"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              </ul>
+        </footer>
+
+    </div>
+</body>
+</html>

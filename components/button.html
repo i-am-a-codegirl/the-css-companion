@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+    <script src="https://kit.fontawesome.com/e45a62e93a.js" crossorigin="anonymous"></script>
+</head>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+        <h2 class="imp-text">CSS-Companion</h2>
+        <ul>
+            <li><a  href="/index.html">Home</a></li>
+            <li><a class="current-pg" href="/">Components-docs</a></li>
+            <li><a href="/">git</a></li>
+        </ul>
+    </nav>
+<hr>
+<div class="component-text imp-text">Get your Website Components Designed
+</div>
+
+<aside>
+
+  <label for="hamburger" class="hamnav">&#9776;</label>
+<input type="checkbox" id="hamburger">
+
+  <ul class="hamitems">
+      
+      <li><a href="/component.html">Avatar</a></li>
+      <li><a  href="/alert.html">Alert</a></li>
+      <li><a href="/badge.html">Badge</a></li>
+      <li><a class="current-pg" href="/button.html">Button</a></li>
+      <li><a href="/card.html">Card</a></li>
+      <li><a href="/image.html">Image</a></li>
+      <li><a href="input.html">Input</a></li>
+      <li><a href="text-utilities.html">Text Utilities</a></li>
+      <li><a href="/navigation.html">Navigation</a></li>
+      <li><a href="/modal.html">Modal</a></li>
+      <li><a href="/rating.html">Rating</a></li>
+      <li><a href="/toast.html">Toast</a></li>
+      <li><a href="/grid.html">Grids</a></li>
+      <li><a href="/slider.html">Slider</a></li>
+  </ul>
+</aside>
+
+        <main>
+            <h3 class="imp-text">Button</h3>
+            <div>
+                <p class="bold">Primary Button</p>
+                <button class="btn btn-xs" role="button">
+                  Button text
+                </button>
+                <button class="btn btn-hover btn-sm" role="button">
+                  Button text
+                </button>
+                <button class="btn btn-large disable" role="button">
+                  Button text
+                </button>
+                </div>
+
+                <p>Buttons are super important part of any website. You can use the button for call-to-actions and in many more ways to interact with your audience.</p>
+                <p>You just have to put class <span class="highlight">"btn"</span> with class of sizes like xs, sm, large to get the desired size <span class="highlight">"btn large"</span>. You can also give additional functionalities to your button loike disable or hover by using classes for e.g. <span class="highlight">"btn xs disable/hover"</span>. Besides, its super easy to customize buttons as per the theme of your website.</p>
+                <br>
+                <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary%2520btn-xs%2522%2520role%253D%2522button%2522%253E%250A%2520%2520%2520%2520%2520%2520Button%2520text%250A%2520%2520%2520%2520%253C%252Fbutton%253E"
+              style="width: 630px; height: 261px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+                
+          <p class="bold">Icon Button</p>
+            <div>
+            <button class="btnn"><i class="fa fa-home"></i></button>
+            <button class="btnn"><i class="fa fa-bars"></i></button>
+            <button class="btnn"><i class="fa fa-trash"></i></button>
+            <button class="btnn"><i class="fa fa-close"></i></button>
+            <button class="btnn"><i class="fa fa-folder"></i></button>
+            </div>
+
+            <p>Icon in Buttons are useful in displaying important functions that user might want to do. For using the icons you just need to add class btnn with class fa fa-hone(for home icon) in thr icons within the buttons. For e.g. <span class="highlight">"btnn" for buttons & on icons with class fa & fa-home.</span>
+            </p>
+            <br>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-home%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-trash%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-close%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btnn%2522%253E%253Ci%2520class%253D%2522fa%2520fa-folder%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%253C%252Fdiv%253E%250A"
+              style="width: 639px; height: 335px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            
+            <p class="bold">Link Button</p>
+            <div>
+              
+                <a class="link-btn"  href="http://www.youtube.com">Youtube</a>
+                <a class="link-btn"  href="http://www.webucator.com">Webucator</a>
+                <a class="link-btn"  href="http://www.google.com">Google</a>
+            </div>
+
+            <p>Links buttons are created using anchor tags. These buttons are usually utilized to link to a target landing page. For e.g. you can use class <span class="highlight">"link-btn"</span>with your anchor tags. You can change the sizes by applying the size class, simple & easy.</p>
+            <br>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%253E%250A%2520%2520%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252Fwww.youtube.com%2522%253EYoutube%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252Fwww.webucator.com%2522%253EWebucator%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522http%253A%252F%252Fwww.google.com%2522%253EGoogle%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+              style="width: 588px; height: 298px; border:0; transform: scale(1); overflow:hidden;"
+              sandbox="allow-scripts allow-same-origin">
+            </iframe>
+
+            <p class="bold">Float Button</p>
+            <button type="button" class="btn btn-secondary btn-fab"><i
+              class="fas fa-angle-double-up fa-lg"></i></button>
+      <button type="button" class="btn btn-primary btn-fab"><i class="fas fa-plus"></i></button>
+
+      <p>Floating buttons are used to provide some special power/functionalities to the user like edit page in google docs. You can use the btn-fab class with desired icon class to create floating buttons</p>
+     
+      <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=vscode&wt=bw&l=htmlmixed&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=25px&ph=14px&ln=false&fl=1&fm=Hack&fs=14.5px&lh=155%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btn%2520btn-secondary%2520btn-fab%2522%253E%253Ci%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522fas%2520fa-angle-double-up%2520fa-lg%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%2520type%253D%2522button%2522%2520class%253D%2522btnn%2520btn-primary%2520btn-fab%2522%253E%253Ci%2520class%253D%2522fas%2520fa-plus%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E"
+  style="width: 917px; height: 195px; border:0; transform: scale(1); overflow:hidden;"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </main>
+        <footer>
+            <h4>all rights reserved @ CSS-Companion</h4>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/sneha-singh-58b246195/"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/i-am-a-codegirl?tab=repositories"> <i class="fa fa-github" aria-hidden="true"></i></a></li>
+                <li><a href="https://instagram.com/a_productuive_blog?utm_medium=copy_link"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="mailto: iamacodegirl@gmail.com"><i class="fa fa-briefcase" aria-hidden="true"></i></a></li>
+                <li><a href="https://twitter.com/snehasi16136808"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              </ul>
+        </footer>
+
+    </div>
+</body>
+</html>
